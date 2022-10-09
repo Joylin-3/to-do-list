@@ -1,0 +1,64 @@
+body{
+    width: 30%;
+    /* margin: 0 auto; */
+    background: linear-gradient(to right,rgb(167, 213, 214),rgb(241, 172, 195));;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: red 0px 0px, cyan 0px 0px;
+    transition: text-shadow .1s ease-in-out;
+}
+h1:hover{
+    text-shadow: red -3px 0px, cyan 3px 0px;
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 360px;
+}
+#inputlist{
+    width: 300px;
+    height: 46px;
+    outline: none;
+    color: aliceblue;
+    border: 1px solid black;
+    border-right: 0px;
+    font-size: 20px;
+    vertical-align: middle;
+    background-color: darkslategray;
+    border-radius: 12px 0px 0px 12px;
+}
+
+#addtoDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 0px 12px 12px 0px;
+    background-color: rgb(105, 153, 153);
+    color: aliceblue;
+}
+.todos{
+    margin: 25px;
+}
+
+.para-style{
+    margin: 0;
+    cursor:pointer;
+    font-size: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 10px;
+}
+.done-style{
+    padding: 10px;
+    background-color: darkgray;
+    color: azure;
+}
